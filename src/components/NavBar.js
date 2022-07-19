@@ -11,10 +11,13 @@ const linkStyles = {
   textDecoration: "none",
   color: "white",
 };
+const c = {
+
+}
 
 function NavBar() {
   return (
-    <div>
+    <div style={c}>
       <NavLink to="/" exact style={linkStyles} activeStyle={{background: "darkblue",}}>Home</NavLink>
       <NavLink to="/about" exact style={linkStyles}activeStyle={{background: "darkblue",}}>About</NavLink>
       <NavLink to="/login" exact style={linkStyles}activeStyle={{background: "darkblue",}}>Login</NavLink>
